@@ -2,7 +2,6 @@
   "name": "dif-schema-directory",
   "version": "0.0.1",
   "description": "DIF Schema Directory - suggested schemas for use in common application contexts",
-  "main": "./index",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/decentralized-identity/schema-directory.git"
