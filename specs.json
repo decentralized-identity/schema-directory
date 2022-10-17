@@ -9,10 +9,10 @@
       ],
       "assets": [
         {
-          "path": "/custom-assets/custom.css"
+          "path": "custom-assets/custom.css"
         },
         {
-          "path": "/custom-assets/custom-body.js",
+          "path": "custom-assets/custom-body.js",
           "inject": "body",
           "module": true
         }
