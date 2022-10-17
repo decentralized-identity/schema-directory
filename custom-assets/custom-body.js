@@ -1,6 +1,6 @@
 
 import { DOM } from './dom.js';
 
-DOM.delegateEvent('pointerover', 'tbody tr', (e, node) => {
-  console.log(node);
+DOM.delegateEvent('pointerdown', 'tbody td:first-child a', (e, node) => {
+  node.setAttribute('target', '_blank');
 })
