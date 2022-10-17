@@ -1,31 +1,53 @@
 
-table:has(~ h2:not(#schemas)) td:first-child {
+#schemas ~ table td:first-child {
   white-space: nowrap;
 }
 
-table:has(~ h2:not(#schemas)) td:first-child a:nth-of-type(2) {
+#schemas ~ table td:first-child a + a {
   font-size: 0.8em;
   font-style: italic;
   text-decoration: none;
   opacity: 0.75;
 }
 
-table:has(~ h2:not(#schemas)) td:first-child a:nth-of-type(2):hover {
+#schemas ~ table td:first-child a + a:hover {
   opacity: 1;
 }
 
 
-table:has(~ h2:not(#schemas)) td:first-child a:nth-of-type(2)::before {
+#schemas ~ table td:first-child a + a::before {
   content: " - ";
 }
 
-/* table:has(~ h2:not(#schemas)) td:first-child a:nth-of-type(2)::after {
-  content: ")";
-} */
-
-table:has(~ h2:not(#schemas)) td:nth-child(2):empty::before {
+#schemas ~ table td:nth-child(2):empty::before {
   display: block;
   content: "⋯";
   color: #ccc;
   text-align: center;
+}
+
+#schemas ~ h2 ~ table td:first-child {
+  white-space: unset;
+}
+
+#schemas ~ h2 ~ table td:first-child a + a {
+  font-size: unset;
+  font-style: unset;
+  text-decoration: unset;
+  opacity: unset;
+}
+
+#schemas ~ h2 ~ table td:first-child a + a:hover {
+  opacity: unset;
+}
+
+#schemas ~ h2 ~ table td:first-child a + a::before {
+  content: unset;
+}
+
+#schemas ~ h2 ~ table td:nth-child(2):empty::before {
+  display: unset;
+  content: unset;
+  color: unset;
+  text-align: unset;
 }
