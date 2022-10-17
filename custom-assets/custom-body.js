@@ -1,6 +1,6 @@
 
 import { DOM } from './dom.js';
 
-DOM.delegateEvent('pointerdown', 'tbody td:first-child a', (e, node) => {
+DOM.delegateEvent('pointerdown', 'table:has(~ h2:not(#schemas)) td a', (e, node) => {
   node.setAttribute('target', '_blank');
 })

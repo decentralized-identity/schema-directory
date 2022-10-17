@@ -5,8 +5,7 @@
       "output_path": "./",
       "spec_directory": "./content",
       "markdown_paths": [
-        "intro.md",
-        "schemas.md"
+        "directory.md"
       ],
       "assets": [
         {

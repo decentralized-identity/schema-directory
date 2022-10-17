@@ -27,3 +27,7 @@ not exist that sufficiently serve an application, service, or interaction contex
 are seeking to normalized, the DIF Schema Directory can serve as a home for new semantic data types. 
 
 ## Schemas
+
+[[insert: ./content/schemas.md]]
+
+## References
