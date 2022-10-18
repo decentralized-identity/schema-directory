@@ -10,5 +10,5 @@ types are suggested when conveying information about an entity of the types list
 | [Person](https://schema.org/Person) [Schema.org](https://schema.org)               |              | People, individuals                                             |
 | [Corporation](https://schema.org/Corporation)  [Schema.org](https://schema.org)    |              | Any form of incorporated entity                                 |
 | [Organization](https://schema.org/Organization)   [Schema.org](https://schema.org) |              | Any general type of organization                                |
-| [Organization](https://gs1.org/voc/Organization) [GS1](gs1.org/voc)                | Supply Chain | Any organization or company involved in supply chain activities |
-| [Organization](http://hl7.org/fhir/organization.html)  [HL7 FHIR](hl7.org/fhir)    | Healthcare   | Any healthcare company, institution, group, etc.                |
+| [Organization](https://gs1.org/voc/Organization) [GS1](https://www.gs1.org/voc)                | Supply Chain | Any organization or company involved in supply chain activities |
+| [Organization](http://hl7.org/fhir/organization.html)  [HL7 FHIR](https://hl7.org/fhir)    | Healthcare   | Any healthcare company, institution, group, etc.                |
