@@ -28,6 +28,8 @@ are seeking to normalized, the DIF Schema Directory can serve as a home for new 
 
 ## Schemas
 
+<section id="schema_tables">
 [[insert: ./content/schemas.md]]
+</section>
 
 ## References

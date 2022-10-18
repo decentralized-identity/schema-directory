@@ -1,53 +1,39 @@
 
-#schemas ~ table td:first-child {
+
+#schema_tables table th:nth-child(1),
+#schema_tables table td:nth-child(1) {
+  border-right: none;
+}
+
+#schema_tables table th:nth-child(2),
+#schema_tables table td:nth-child(2) {
+  border-left: none;
   white-space: nowrap;
 }
 
-#schemas ~ table td:first-child a + a {
-  font-size: 0.8em;
+#schema_tables table td:nth-child(2) a {
+  text-decoration: none;
+}
+
+
+#schema_tables table td:nth-child(1) {
+  padding-right: 0;
+}
+
+#schema_tables table td:nth-child(2) a {
+  font-size: 0.75em;
   font-style: italic;
   text-decoration: none;
   opacity: 0.75;
 }
 
-#schemas ~ table td:first-child a + a:hover {
+#schema_tables table td:nth-child(2) a:hover {
   opacity: 1;
 }
 
-
-#schemas ~ table td:first-child a + a::before {
-  content: " - ";
-}
-
-#schemas ~ table td:nth-child(2):empty::before {
+#schema_tables table td:nth-child(3):empty::before {
   display: block;
   content: "⋯";
   color: #ccc;
   text-align: center;
-}
-
-#schemas ~ h2 ~ table td:first-child {
-  white-space: unset;
-}
-
-#schemas ~ h2 ~ table td:first-child a + a {
-  font-size: unset;
-  font-style: unset;
-  text-decoration: unset;
-  opacity: unset;
-}
-
-#schemas ~ h2 ~ table td:first-child a + a:hover {
-  opacity: unset;
-}
-
-#schemas ~ h2 ~ table td:first-child a + a::before {
-  content: unset;
-}
-
-#schemas ~ h2 ~ table td:nth-child(2):empty::before {
-  display: unset;
-  content: unset;
-  color: unset;
-  text-align: unset;
 }
