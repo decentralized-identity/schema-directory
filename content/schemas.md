@@ -5,7 +5,7 @@ Most applications require the processing and display of basic profile informatio
 in relation to a person, business, organizations, etc. The following set of data 
 types are suggested when conveying information about an entity of the types listed:
 
-| Type                                                   |                                  | Vertical     | Describes                                                       |
+| Type                                                   | Ontology                         | Vertical     | Describes                                                       |
 | ------------------------------------------------------ | -------------------------------- | ------------ | --------------------------------------------------------------- |
 | [Person](https://schema.org/Person)                    | [Schema.org](https://schema.org) |              | People, individuals                                             |
 | [Corporation](https://schema.org/Corporation)          | [Schema.org](https://schema.org) |              | Any form of incorporated entity                                 |

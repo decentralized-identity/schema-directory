@@ -12,6 +12,10 @@
           "path": "custom-assets/custom.css"
         },
         {
+          "path": "custom-assets/tablesort.min.js",
+          "inject": "body"
+        },
+        {
           "path": "custom-assets/custom-body.js",
           "inject": "body",
           "module": true

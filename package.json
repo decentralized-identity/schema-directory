@@ -25,6 +25,7 @@
   },
   "homepage": "https://identity-foundation/schema-directory",
   "dependencies": {
-    "spec-up": "0.10.6"
+    "spec-up": "0.10.6",
+    "tablesort": "5.3.0"
   }
 }
