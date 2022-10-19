@@ -12,7 +12,7 @@
   opacity: 0.5;
 }
 
-#schema_tables table th:not([aria-sort])::after {
+#schema_tables table th:not([aria-sort]):not([data-sort-method="none"])::after {
   content: "▸";
 }
 
