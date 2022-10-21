@@ -8,6 +8,10 @@ Schema Directory
 
 Editors:
 ~ [Daniel Buchner]([Block](https://block.xyz))
+~ [Jack Couch]([Sophtron](https://sophtron.com))
+
+Contributors:
+~ [Martin Riedel]([identity.com](https://identity.com/))
 
 Participate:
 ~ [GitHub repo](https://github.com/decentralized-identity/schema-directory)
