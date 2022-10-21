@@ -1,0 +1,31 @@
+{
+  "name": "dif-schema-directory",
+  "version": "0.0.1",
+  "description": "DIF Schema Directory - suggested schemas for use in common application contexts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentralized-identity/schema-directory.git"
+  },
+  "scripts": {
+    "edit": "node -e \"require('spec-up')()\"",
+    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
+    "dev": "node -e \"require('spec-up')({ dev: true })\""
+  },
+  "keywords": [
+    "DIF",
+    "identity",
+    "schemas",
+    "decentralized",
+    "standards"
+  ],
+  "author": "Daniel Buchner",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/decentralized-identity/schema-directory/issues"
+  },
+  "homepage": "https://identity-foundation/schema-directory",
+  "dependencies": {
+    "spec-up": "0.10.6",
+    "tablesort": "5.3.0"
+  }
+}

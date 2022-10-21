@@ -1,0 +1,53 @@
+
+#schema_tables table th {
+  position: relative;
+  padding-right: 1.8em;
+  cursor: pointer;
+}
+
+#schema_tables table th::after {
+  position: absolute;
+  right: 0.4em;
+  font-size: 1.25em;
+  opacity: 0.5;
+}
+
+#schema_tables table th:not([aria-sort]):not([data-sort-method="none"])::after {
+  content: "▸";
+}
+
+#schema_tables table th[aria-sort="ascending"]::after {
+  content: "▴";
+  opacity: 1;
+}
+
+#schema_tables table th[aria-sort="descending"]::after {
+  content: "▾";
+  opacity: 1;
+}
+
+#schema_tables table td:nth-child(-n+3) {
+  white-space: nowrap;
+}
+
+#schema_tables table td:nth-child(2) a {
+  text-decoration: none;
+}
+
+#schema_tables table td:nth-child(2) a {
+  font-size: 0.8em;
+  font-style: italic;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+#schema_tables table td:nth-child(2) a:hover {
+  opacity: 1;
+}
+
+#schema_tables table td:nth-child(3):empty::before {
+  display: block;
+  content: "⋯";
+  color: #ccc;
+  text-align: center;
+}
